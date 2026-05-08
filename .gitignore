@@ -1,10 +1,20 @@
 #Ejecutables
 hola
 variables
-
+ejercicio_01
+ejercicio_02
+ejercicio_03
+temperatura
 
 #Objetos compilados
 *.o
 
 #Ejecutables comunes
 *.out
+*.exe
+
+#Archivos Temporales de VIM
+*.swap
+
+#Archivos Temporales Generales
+*~
