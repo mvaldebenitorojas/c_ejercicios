@@ -1,0 +1,10 @@
+#Ejecutables
+hola
+variables
+
+
+#Objetos compilados
+*.o
+
+#Ejecutables comunes
+*.out
