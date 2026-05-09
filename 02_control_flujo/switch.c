@@ -18,7 +18,8 @@ int main(void)
       scanf(" %c",&opcion);
 
 /*--------------------------------------------------------------*/
-    switch(opcion)
+
+      switch(opcion)
      {
         case 'a':
             printf("\n");

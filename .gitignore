@@ -11,6 +11,7 @@ for
 logico_and
 logico_or
 switch
+do_while
 
 #Objetos compilados
 *.o
