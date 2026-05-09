@@ -10,6 +10,7 @@ if_else_if
 for
 logico_and
 logico_or
+menu
 while
 do_while
 do_while_ternario
