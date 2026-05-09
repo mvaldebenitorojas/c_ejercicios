@@ -2,20 +2,22 @@
 
 int main(void){
 
-	int celsius, fahrenheit, c; /*Declaración de variables enteras*/
+	int celsius, fahrenheit, c, inf, sup; /*Declaración de variables enteras*/
 
-	c = 5; /*Contador*/
+    inf = 0;   /*imite inferior*/
+    sup = 300; /*Limite superior*/
+    c = 7;     /*Contador*/
 
-	celsius = 0;
+	celsius = inf;
 
-	while (celsius <=100) /*Mientras se cumpla la consdición*/
+	while (celsius <= sup) /*Mientras se cumpla la consdición*/
 	{
 
 		fahrenheit = (celsius * 9 / 5) + 32;
 
 		printf("%d °C = %d °F\n", celsius, fahrenheit);
-
-		celsius = celsius + c;
+        
+        celsius = celsius + c;
 	}
 
 		return 0;
