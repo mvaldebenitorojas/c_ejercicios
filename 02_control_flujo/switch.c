@@ -3,11 +3,11 @@
 int main(void)
 {
 
-    char opcion = 0;
+    char opcion = 0; /*La opción se incializa en cero*/
 
-    while (opcion != 'c')
-
-  {
+    while (opcion != 'c') /*Opción para salir*/
+/*-------------------------------------------------------------*/
+   {
       printf("\n");      
       printf("Seleccione una opción: \n");
       printf("a: Abrir\n");
@@ -17,8 +17,9 @@ int main(void)
       printf("Elija opción: ");
       scanf(" %c",&opcion);
 
+/*--------------------------------------------------------------*/
     switch(opcion)
-    {
+     {
         case 'a':
             printf("\n");
             printf("Abrir\n");
@@ -37,9 +38,9 @@ int main(void)
         default:
             printf("Opción no válida\n");
             break;
-    }
+     }
+/*-------------------------------------------------------------*/
   }
 
     return 0;
-    
 }
