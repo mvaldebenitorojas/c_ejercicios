@@ -12,6 +12,8 @@ logico_and
 logico_or
 switch
 do_while
+continue
+ternario
 
 #Objetos compilados
 *.o
