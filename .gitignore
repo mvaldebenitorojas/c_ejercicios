@@ -10,6 +10,7 @@ if_else_if
 for
 logico_and
 logico_or
+switch
 
 #Objetos compilados
 *.o
