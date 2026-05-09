@@ -21,7 +21,7 @@ int main(void)
 
 	if(edad >= 18 && edad <=60) /*comprueba si a edad se encuentra en el rango establecido 18/60 */
 	{
-		printf("Edad dentro de rango laboral\n"); /*Si cumple la condición*/
+		printf("Edad dentro del rango laboral\n"); /*Si cumple la condición*/
 	}
 
 	else
@@ -39,7 +39,7 @@ int main(void)
 	if(edad >= 18 && edad <=65) /*comprueba si a edad se encuentra en el rango establecido 18/65 */
 	
 	{
-		printf("Edad dentro de rango laboral\n"); /*Si cumple la condición*/
+		printf("Edad dentro del rango laboral\n"); /*Si cumple la condición*/
 	}
 
 	else
