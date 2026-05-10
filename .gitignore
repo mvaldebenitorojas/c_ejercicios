@@ -29,5 +29,7 @@ variables
 *.swap
 *.swp
 *swo
+.*.swp
+*~
 #Archivos Temporales Generales
 *~
