@@ -27,6 +27,7 @@ variables
 
 #Archivos Temporales de VIM
 *.swap
-
+*.swp
+*swo
 #Archivos Temporales Generales
 *~
