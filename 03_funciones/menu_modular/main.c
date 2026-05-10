@@ -17,10 +17,23 @@ int main(void)
             if(opcion == -1)
             
             {
-            printf("Error: entrada invalida\n");
+                printf("Error: entrada invalida\n");
+                printf("Presione ENTER para continuar...");
+            
+            while(getchar() != '\n');
+            
             continue;
             }
 
+            if(opcion < 1 || opcion > 3)
+            {
+                printf("Opcion no valida\n");
+                printf("Presione ENTER para continuar...");
+
+            while(getchar() != '\n');
+
+            continue;
+            }
         ejecutar_opcion(opcion);
 
     } while(opcion != 3);
