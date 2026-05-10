@@ -10,9 +10,9 @@ int main(void)
     {
         system("clear"); /*Limpia la pantalla*/
 
-        mostrar_menu();
+        mostrar_menu(); /*Declarado dentro de menu.c*/
 
-        opcion = leer_opcion();
+        opcion = leer_opcion(); /*Declarado dentro de menu.c*/
 
             if(opcion == -1)
             
@@ -20,21 +20,21 @@ int main(void)
                 printf("Error: entrada invalida\n");
                 printf("Presione ENTER para continuar...");
             
-            while(getchar() != '\n');
+                while(getchar() != '\n');
             
-            continue;
+                continue;
             }
 
             if(opcion < 1 || opcion > 3)
             {
-                printf("Opcion no valida\n");
+                printf("Error: entrada invalida\n");
                 printf("Presione ENTER para continuar...");
 
-            while(getchar() != '\n');
+                while(getchar() != '\n');
 
-            continue;
+                continue;
             }
-        ejecutar_opcion(opcion);
+        ejecutar_opcion(opcion); /*Declarado dentro de menu.c*/
 
     } while(opcion != 3);
 

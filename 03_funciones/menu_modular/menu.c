@@ -3,23 +3,25 @@
 
 /*-------------------------------------------------*/
 
-void mostrar_menu(void)
+void mostrar_menu(void) /*Esta es la parte gráfica del menu_modular*/
 {
     printf("\n====== MENU ======\n");
     printf("1 - Saludar\n");
     printf("2 - Mensaje\n");
-    printf("3 - Salir\n");
+    printf("3 - Salir");
+    printf("\n==================\n");
 }
 
 /*--------------------------------------------------*/
 
-int leer_opcion(void)
+int leer_opcion(void) /*Lee y valida la opción ingresada*/
 {
     int opcion;
     int ok;
-
+    
+    printf("\n");
     printf("Opcion: ");
-    ok = scanf("%d", &opcion);
+        ok = scanf("%d", &opcion);
 
         if(ok != 1)
         {
@@ -33,7 +35,7 @@ int leer_opcion(void)
 
 /*--------------------------------------------------*/
 
-void ejecutar_opcion(int opcion)
+void ejecutar_opcion(int opcion) /*Salidas de las opciones*/
 {
     switch(opcion)
     {
