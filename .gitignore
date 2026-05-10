@@ -3,15 +3,14 @@
 #Objetos compilados
 *.o
 
-#Ejecutables comunes
+#Ejecutables
 *.out
 *.exe
+a.out
 
 #Archivos Temporales de VIM
-*.swap
 *.swp
-*swo
-.*.swp
+*.swo
 
 #Archivos Temporales Generales
 *~
