@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "menu.h"
 
+/*-------------------------------------------------*/
+
 void mostrar_menu(void)
 {
     printf("\n====== MENU ======\n");
@@ -8,6 +10,8 @@ void mostrar_menu(void)
     printf("2 - Mensaje\n");
     printf("3 - Salir\n");
 }
+
+/*--------------------------------------------------*/
 
 int leer_opcion(void)
 {
@@ -17,21 +21,20 @@ int leer_opcion(void)
     printf("Opcion: ");
     ok = scanf("%d", &opcion);
 
-    if(ok != 1)
-    {
-        while(getchar() != '\n');
-        return -1;
-    }
+        if(ok != 1)
+        {
+            while(getchar() != '\n');
+            return -1;
+        }
 
-    while(getchar() != '\n');
-    return opcion;
+        while(getchar() != '\n');
+        return opcion;
 }
+
+/*--------------------------------------------------*/
 
 void ejecutar_opcion(int opcion)
 {
-
-   // printf("DEBUG:  opción = %d\n", opcion);
-
     switch(opcion)
     {
         case 1:

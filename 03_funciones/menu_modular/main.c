@@ -14,11 +14,12 @@ int main(void)
 
         opcion = leer_opcion();
 
-        if(opcion == -1)
-        {
+            if(opcion == -1)
+            
+            {
             printf("Error: entrada invalida\n");
             continue;
-        }
+            }
 
         ejecutar_opcion(opcion);
 
