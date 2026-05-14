@@ -4,7 +4,6 @@ int main(void){
 
 	int numero_1, numero_2, suma; 
 	
-
 	printf("Ingrese el primer número: ");
 	scanf("%d",&numero_1);
 
@@ -18,7 +17,5 @@ int main(void){
 
 	printf("La suma de los dos números es: %d\n", suma);
 
-
-	
 	return 0;
 }
