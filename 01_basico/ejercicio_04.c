@@ -28,7 +28,5 @@ int main(void)
         %p      mem     (direccion de memoria)
      */
 
-
-
 return 0;
 }
