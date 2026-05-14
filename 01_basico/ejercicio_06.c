@@ -118,10 +118,9 @@ int main(void)
 
         printf("Ingrese temperatura: ");
     }
-    system("clear");       
+    system("clear"); /*Limpia pantalla*/      
 /*-----------------------------------------------------------*/
 
-    printf("\n\n");
     printf("----------0----------0----------\n");
     printf("Nombre: %s\n", nombre );
     printf("Edad: %d años\n", edad);
