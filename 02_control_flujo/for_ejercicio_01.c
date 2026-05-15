@@ -11,7 +11,7 @@ int main(void)
 
     for (n = inf; n <= sup; n += c) // (inicio; condición; incremento), si c = 1, números naturales, si c = 2, números impares
     {
-        printf("%d\n", n); // toma el digito %d y lo imprime ,n
+        printf("%d\n", n); // imprime es valor de n usando %d 
     }
 
 return 0;
