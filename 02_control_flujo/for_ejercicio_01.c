@@ -5,7 +5,7 @@ int main(void)
 {
 
     int n; // número 
-    int inf = 1; // Límite inferior en que número comienza a contar n
+    int inf = 1; // Límite inferior para n
     int sup = 20; // Límite superior para n
     int c = 1; // contador
 
