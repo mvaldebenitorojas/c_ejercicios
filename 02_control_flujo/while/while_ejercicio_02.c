@@ -4,25 +4,22 @@ int main (void)
 {
     int numero; 
     int suma = 0;
+    
+     printf("Ingrese un N°: "); // Solicita ingresar un número
+     scanf("%d", &numero); // Almacena número en número
 
-    printf("Ingrese un N°: "); // Solicita número
-    scanf("%d",&numero); 
+/*------------------------------------------*/
 
-/*----------------------------------------------------------*/
-// Ingreso de números
+   while (numero != 0) // Verifica que número no sea cero
+    {
+        suma += numero; // suma = suma + número
 
-   while (numero != 0)
-   {
-    suma += numero; 
-
-    printf("Ingrese un N°: ");
-    scanf("%d",&numero); 
-
-   }
-/*----------------------------------------------------------*/
-// Imprime la suma
-
-    printf("Suma: %d\n", suma);
+        printf("Ingrese un N°: "); // Solicita ingresar un número
+        scanf("%d", &numero); // Almacena el número
+    }
+    
+    printf("ingresaste cero.\n"); // Si ingresa número imprime mensaje
+    printf("suma: %d\n", suma); // imprime la suma de los números
 
 return 0;
 }
