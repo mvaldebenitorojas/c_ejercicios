@@ -1,24 +1,25 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
-    int clave = 1234;
+    char clave[] = "1234";
     int i = 0;
-    int password;
+    char password [20];
     
     printf("Ingrese clave: ");
-    scanf("%d",&password);
+    scanf("%s",password);
 
-    while(password != clave && i < 2) 
+    while(strcmp(password,clave) != 0 && i < 2) 
     {
         printf("Clave incorrecta\n");
         printf("Ingrese clave: ");
-        scanf("%d",&password);
+        scanf("%s",password);
 
         i += 1;
     }
 
-    if(clave == password)
+    if(strcmp(clave, password) == 0)
     {
          printf("Clave correcta\n");
 
