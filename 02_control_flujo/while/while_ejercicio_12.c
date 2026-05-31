@@ -6,6 +6,8 @@ int main(void)
     int opcion;
     int a, b;
 
+    printf("    MENU    \n");
+    printf("1.- Sumar\n2.- Restar\n3.- Multiplicar\n4.- Dividir\n");
     printf("Ingrese una opción: ");
     scanf("%d", &opcion);
 
@@ -65,7 +67,8 @@ int main(void)
                 }
 
             }
-
+            printf("    MENU    \n");
+            printf("1.- Sumar\n2.- Restar\n3.- Multiplicar\n4.- Dividir\n");
             printf("Ingrese una opción: ");
             scanf("%d", &opcion);
     }
