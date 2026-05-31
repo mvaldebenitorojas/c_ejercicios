@@ -2,7 +2,7 @@
 
 int main(void)
 {
-
+    
     int opcion;
     int a, b;
 
@@ -46,7 +46,17 @@ int main(void)
 
                 printf("Ingrese dos números: \n");
                 scanf("%d %d", &a, &b);
+
+                while(b == 0)
+                {
+
+                printf("Error: división por cero!\n");
+                printf("Ingrese dos números: \n");
+                scanf("%d %d", &a, &b);
+                                
+                }
                 printf("La división es: %d\n", a / b);
+
                 break;
 
                 default:
